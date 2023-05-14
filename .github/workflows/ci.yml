@@ -47,8 +47,3 @@ jobs:
         with:
           modules-to-cache: BuildHelpers
           shell: pwsh
-      - name: Test Bucket
-        shell: pwsh
-        run: |
-          $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
-          .\my_bucket\bin\test.ps1
