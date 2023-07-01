@@ -16,8 +16,9 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.rationalqm.us/dgdemux/binaries",
-        "regex": "_([\\d.]+).zip"
+        "url": "https://www.rationalqm.us/dgdemux/binaries/",
+        "regex": "DGDemux_([\\d.]+).zip",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
